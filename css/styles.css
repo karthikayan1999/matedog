@@ -1,0 +1,126 @@
+body{
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* background section */
+.colored-section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+.white-section{
+  background-color: #fff;
+}
+/* tittle section */
+#title{
+  text-align: left;
+}
+#title .heading{
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+.nav-item{
+  padding : 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+.title-image{
+  transform: rotate(30deg);
+  margin-top:20px;
+  width:60%;
+  position: absolute;
+  z-index: auto;
+}
+/* feature section */
+#features{
+    position: relative;
+    z-index: 1;
+}
+.feature p{
+  width:90%;
+  padding: 0 5px 5px;
+  color:#8f8f8f;
+}
+.icon{
+  color:#ef8172;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+.fea{
+  padding: 30px;
+}
+h3{
+  font-size: 1rem;
+  padding: 5px;
+}
+/* testimonials secection */
+#testimonials{
+  padding:7% 15%;
+}
+h2{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testimonial-image{
+  width:20%;
+  border-radius: 100%;
+}
+#press{
+  padding-bottom: 4%;
+}
+/* pricing section */
+#pricing{
+  padding: 7% 0;
+}
+.button{
+  margin-top: 55px;
+}
+.cardhead{
+  font-size: 2rem;
+}
+@media only screen and (max-width:991px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: none;
+  }
+  #testimonials h2{
+    font-size: 1.5rem;
+    line-height: 1;
+  }
+}
+/* call to action */
+#cta{
+  margin: 3% 0;
+}
+#cta h3{
+  font-size: 2rem;
+  line-height: 1.5;
+  padding: 7% 15% 0;
+
+}
+.downimage{
+  margin: 30px 15px 30px;
+}
+/* footer section */
+#footer{
+  margin: 0 30px 50px;
+
+}
+#footer i{
+  margin:20px 15px;
+}
